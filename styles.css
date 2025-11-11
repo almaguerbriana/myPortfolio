@@ -69,7 +69,7 @@ a:hover{
     width: 100%;
     padding-left: 80px;
     padding-bottom: 57px;
-    /*background-image: url(icon/icon.png.webp);
+    /*background-image: url(images/icon.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; */
@@ -89,6 +89,7 @@ a:hover{
 .content, .abtMeText{
     color: black;
     text-decoration: underline;
+    padding-left: 15px;
 }
 
 /*.list-aboutme{
