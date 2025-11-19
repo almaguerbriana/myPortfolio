@@ -10,17 +10,17 @@ function validateForm()
     else if(num.length != 10)
         alert("Only provide a 10-digit number");
     else if(!email.includes("gmail.com") && !email.includes("outlook.com") && !email.includes("utrgv.edu"))
-        alert("Email address should be wither Gmail, Outlook, or UTRGV")
+        alert("Email address should be either Gmail, Outlook, or UTRGV");
     else if(message.length <= 5)
-        alert("Compose a longer message so I can help you better.")
+        alert("Compose a longer message so I can help you better.");
     else{
         alert("Loading mail client");
 
-        let subject = 'Message via Portfolio website from ${uname}';
+        let subject = `Message via Portfolio website from ${uname}`;
 
-        let body = 'From: ${email}\nPhone: ${num}\nMessage: ${message}\n'
+        let body = `From: ${email}\nPhone: ${num}\nMessage: ${message}\n`;
 
-        let mailtoLink = 'mailto: almaguer1briana@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}';
+        let mailtolink = `mailto: almaguer1briana@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
         window.location.href = mailtolink;
     }

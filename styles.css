@@ -5,14 +5,14 @@
 }
 
 header{
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
     background-color: #fda900ef;
     padding: 10px 30px;
 
     position: sticky;
-    top: 0;
+    top:0;
 }
 
 .logo img{
@@ -24,7 +24,7 @@ header h1{
     color: #781509;
     flex: 1;
     font: 50px "Times New Roman";
-    font-weight: 800;
+    font-weight:800;
 }
 
 .nav-bar{
@@ -85,14 +85,14 @@ a:hover{
     color: blue;
 }
 
-.content, .abtMeText{
+.content .abtMeText{
     color: black;
-    text-decoration: underline;;
+    text-decoration: underline;
 }
 
 .list-aboutme{
     list-style-type: lower-roman;
-    padding-left: 30px;
+    padding-left: 50px;
 }
 
 footer{
