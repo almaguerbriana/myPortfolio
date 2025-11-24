@@ -27,6 +27,13 @@ header h1{
     font-weight:800;
 }
 
+.h2{
+    text-align: center;
+    color: #460313;
+    flex: 1;
+    font: 30px "Times New Roman";
+    font-weight:600;
+}
 .nav-bar{
     display: flex;
     gap: 40px;
@@ -111,7 +118,7 @@ footer{
 .project-table{
     border-collapse: collapse;
     margin: auto;
-
+    
     margin-top: 10px;
 }
 
